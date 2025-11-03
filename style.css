@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+    margin: 80px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: 60px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #F7F9FC;
+  font-family: Arial;
+  color: #575F7D;
+  font-size: 17px;
+}
+
+h1 {
+  color: rgb(44, 54, 89);
+  font-family: "Roboto";
+  font-size: 32px;
+  line-height: 25px;
+}
+
+h2, h3 {
+  color: rgb(60, 60, 60);
+  font-family: "Roboto";
+  font-size: 32px;
+  line-height: 25px;
+}
+
+img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: underline;
+  color: rgb(63, 47, 141);
+}
+
+a:hover {
+  color: red;
+  text-decoration:  none;
+}
+
+.container {
+    margin: 80px;
+}
+.card-white {
+  text-align: center;
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+.presentation {
+  margin: 40px;
+}
+
+.button-purple {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.button-purple:hover {
+  background-color: black;
+  color: white;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 40px;
+  margin: 0;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #6B72E1;
+}
+
+.list-inline {
+  padding-inline-start: 0;
+}
