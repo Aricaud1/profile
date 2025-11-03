@@ -32,7 +32,7 @@
 }
 
 body {
-  background-image: url('/images/backgroundblur.jpg');
+  background-image: url("images/backgroundblur.jpg");
   background-size: cover;
   font-family: Arial;
   color: #575F7D;
@@ -87,7 +87,7 @@ a:hover {
 }
 
 .button-purple {
-  background-image: url('/images/backgroundblur.jpg');
+  background-image: url("images/backgroundblur.jpg");
   background-size: cover;
   padding: 15px 20px;
   color: white;
